@@ -1,0 +1,183 @@
+
+header{
+	margin: 0%;
+	border-radius: 10cm;
+	font-family: 'Times New Roman', Times, serif;
+	background-image: radial-gradient(red,rgb(92, 39, 39));
+}
+body {
+	display:grid;
+	font-family: Arial;
+    background-image: linear-gradient(to top,#99ccff,#0066cc);
+	/*url("C:\\Users\\kumar\\Documents\\cpp\\web\\backcovid.jpg");*/    
+	background-repeat:repeat-y;
+}
+h1{
+	color: rgb(14, 170, 231);
+	font-variant-caps: small-caps; 
+	text-align: center;
+	font-family: impact;
+	border: 10px #333;
+}
+iframe {
+  height: 100px;
+  width: 120px;
+  resize: both;
+  overflow: auto;
+}
+.links{
+	text-shadow: #333;
+}
+
+.livedat {
+	margin-top: 5px;
+	width: 97%;
+	height: 300px;
+	border: 10px solid rgb(255, 2, 2);
+}
+.barchart{
+	padding: 1px;
+	width: 97%;
+	height: 300px;
+	border: 10px solid rgb(255, 2, 2);
+}
+iframe.livedat{
+	margin-top: 1px;
+	width: 100%;
+	min-height:100%;
+}
+iframe.barchart{
+	width: 100%;
+	min-height:100%;
+}
+.charthr{
+    margin-block: 20px;
+	margin-top: 25px;
+    border: 2px dashed rgb(12, 15, 12);
+}
+h2 {
+	background-color: #B3B3B3;
+	font-variant-caps: small-caps;
+	text-align: center;
+	font-family: MV boli; 
+	font-style: oblique;
+}
+form{ 
+	line-height: 215%;
+	font-family: 'Times New Roman', Times, serif;
+	background-color: skyblue;
+	text-align: center;
+	font-weight: bolder;
+	font-size: larger;
+}
+div.ytvideo{
+	height: 275px;;
+	position:relative;
+	border: 30px solid rgb(92, 39, 39);
+	border-image:radial-gradient(#663300,#993333) ;
+	box-shadow: #333;
+	margin-left: 20%;
+	margin-right: 20%;
+	min-width:max-content;
+}
+iframe.ytvideo{
+	height:100%;
+	width: 100%;
+	min-width:max-content;
+}
+a{
+	font-style: italic;
+}
+nav{
+	font-size: 150%;
+	word-spacing: normal;
+	text-align: center;
+	font-style: oblique;
+	font-variant-caps: small-caps;
+}
+summary{
+	font-style: italic;
+}
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color:linear-gradient(blue,red);
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-image:radial-gradient(red,rgb(92, 39, 39));
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+p.aboutcov{
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: bold;	
+}
+.formban{
+	animation: mymove 5s both;
+	-webkit-animation: mymove 5s infinite;
+}
+heading.formban{
+	color: #f1f1f1;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bolder;
+	background-image: linear-gradient(red,black);
+}
+@keyframes mymove{
+	from{left:0px;}
+	to{left: 200px;}
+}
+form.volform{
+	justify-content: left;
+	background-color: rgb(221, 28, 28);
+	padding: 2%;
+	border:5cm;
+	margin-right: 20%;
+	margin-left: 20%;
+	border-radius: 10cm;
+	-webkit-border-radius: 10cm;
+	-moz-border-radius: 10cm;
+	-ms-border-radius: 10cm;
+	-o-border-radius: 10cm;
+}
+div.volform{
+	justify-content: left;
+	margin-right: 50%;
+}
+div.volhead{
+	content: inherit;
+	align-content:left;
+	text-shadow: #333;
+	margin-right: 60%;
+
+}
+p.volhead{
+	text-align: left;
+	justify-content: left;
+}

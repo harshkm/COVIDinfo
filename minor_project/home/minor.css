@@ -1,0 +1,52 @@
+.menu
+{
+  position:fixed;
+  left:0px;
+  top:-50px;
+  
+  width:100vw;
+  padding:20px;
+  text-align:center;
+  
+  background-color:rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 2px 5px rgb(255, 255, 255);
+  
+  font-size:20px;
+  color:white;
+  
+  /* transition */
+  
+  transition:top 1s;
+  -webkit-transition:top 1s;
+  
+}
+
+.menu:hover
+{
+  top:0px;  
+}
+
+
+/* SPAN OF SPAN */
+
+.menu span
+{
+  margin:20px;  
+}
+
+.menu span a:hover
+{
+  color:rgba(255,255,255,0.5);  
+}
+
+
+
+/* Body and Title*/
+body{
+  background-color: black;
+}
+a
+{
+  text-decoration:none;
+  color:rgb(255, 0, 0);
+}
